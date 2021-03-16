@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	box-sizing:  border-box;
+}
+
+body {
+	background-color: #f5f3f4;
+}
+
+
+#pudelko {
+	max-width: 1600px;
+	margin: 0 auto 0 auto;
+}
+
+#wyloguj a{
+	background-color: #660708;
+	display:inline-block;
+	float:right;
+	padding: 10px 15px 10px 15px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 120px;
+	margin: 10px 5px 10px auto;
+	border-radius: 6px;
+
+}
+
+#wyloguj a:hover {
+	background-color: #273e47;
+	color: #df2935;
+
+}
+
+
+#reklama  img {
+	width: 100%;
+	display: block;
+}
+
+nav {
+	background-color: #660708;
+}
+
+nav a {
+	font-size: 24px;
+	display: inline-block;
+	width: 33.03%;
+	padding: 15px 30px 15px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+
+
+}
+
+nav a:hover {
+	background-color: #ba181b;
+}
+
+.aktywny {
+	background-color: #ba181b;
+}
+
+
+
+#stopka {
+	background-color: black;
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+	padding: 6px;
+}
+
+
+#dodaj {
+	background-color: #660708;
+	display:block;
+	padding: 10px 30px 10px 30px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 25%;
+	margin: 50px auto;
+	border-radius: 6px;
+
+}
+
+#dodaj:hover{
+	background-color: #ba181b;
+}
+
+#tabela a {
+	background-color: #660708;
+	display:inline-block;
+	padding: 5px 15px 5px 15px;
+	color: white;
+	font-size:12px;
+	text-decoration: none;
+	text-align: center;
+	width: 45%;
+	border-radius: 6px;
+	margin: 5px auto 5px auto;
+	border: 0px;
+}
+
+#tabela a:hover {
+	background-color: #ba181b;
+}
+
+#tabela a{
+    nowrap="nowrap"
+}
+
+
+#tabela table {
+	margin: 50px auto 140px auto;
+	width: 99%;
+	border-collapse: collapse;
+	background-color:white;
+}
+
+#tabela td, #tabela th {
+  overload:scrollbar;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #a4161a;
+  color: white;
+}
+
+#tabela p {
+    color:red;
+}
+
